@@ -24,8 +24,9 @@ function filterItemsBySize(maxSize) {
   // TODO: Parcourir les éléments et afficher uniquement ceux
   // dont la longueur du texte est égale ou inférieure à maxSize.
   // Utilisez item.style.display pour gérer l'affichage.
-  
   // Piste pour la boucle : items.forEach(item => { ... });
+
+  
   
   // Ne pas oublier de mettre à jour le compteur d'éléments visibles
   updateCount();
@@ -36,9 +37,14 @@ function filterItemsBySize(maxSize) {
  */
 function sortItemsAlphabetically() {
   const items = Array.from(itemList.children);
+  
 
   // TODO: Filtrer les éléments visibles, les trier par ordre alphabétique
   // avec localeCompare, puis les réinsérer dans itemList dans l'ordre.
+  
+
+  
+  
   
 }
 
